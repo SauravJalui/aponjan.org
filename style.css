@@ -1,8 +1,30 @@
+/* bg color */
+/* #272528 */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background: linear-gradient(180deg, #272528, #262327 20%, #181a23, #000 99%);
+}
+
 .container {
   display: flex;
   justify-content: center;
 }
 
 img {
-  height: 95vh;
+  height: 100vh;
+  /* width: 75%;  */
+  object-fit: cover;
 }
