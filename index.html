@@ -4,12 +4,106 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Aponjan.org</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script defer src="./js/script.js"></script>
+    <title>Aponjan - Best Durga Puja in Mira Bhayandar</title>
   </head>
   <body>
-    <div class="container">
-      <img src="./assets/pictures/maa-asche.png" alt="Maa asche image" />
-    </div>
+    <header class="header sticky">
+      <a href="#">
+        <img
+          src="./assets/pictures/aponjan-logo.png"
+          alt="Aponjan Logo"
+          class="logo"
+          height="100%"
+          width="50%"
+        />
+      </a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#puja-schedule" class="main-nav-link">Puja Schedule</a>
+          </li>
+          <li><a href="#photos" class="main-nav-link">Photos</a></li>
+          <li>
+            <a href="#donate" class="main-nav-link">Donate</a>
+          </li>
+          <li>
+            <a href="#stall-booking" class="main-nav-link">Stall Booking</a>
+          </li>
+          <li>
+            <a href="#cta" class="main-nav-link nav-cta">Join our Family</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- ? Hero Section -->
+      <section class="section-hero" id="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">Durga Puja 2022 by Aponjan</h1>
+            <p class="hero-description">
+              Best Durga Puja in Mira Bhayandar for the 15th Consecutive Year.
+            </p>
+            <a href="#" class="btn btn--full margin-right-sm"
+              >Join Our Family</a
+            >
+            <a href="#" class="btn btn--outline"
+              >Donate
+              <span
+                ><img
+                  src="./assets/pictures/qr-code.png"
+                  alt=""
+                  srcset="" /></span
+            ></a>
+
+            <div class="33-koti-container">
+              <div class="koti-images">
+                <img src="./assets/pictures/Vishnu.png" alt="Vishnu image" />
+                <img src="./assets/pictures/Brahma.png" alt="Brahma image" />
+                <img src="./assets/pictures/Krishna.png" alt="Krishna image" />
+                <img src="./assets/pictures/Hanuman.png" alt="Hanuman image" />
+              </div>
+              <p class="koti-text">
+                <span>+33 koti</span> debi/debota attending
+              </p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="./assets/pictures/durgapuja.png"
+              class="hero-img"
+              alt="maa durga illustration with children ganesh, lakshmi, saraswati and kartik"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
