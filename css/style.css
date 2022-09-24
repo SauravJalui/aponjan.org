@@ -71,8 +71,9 @@
 
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
-  background-color: #e0525d;
-  color: #fff;
+  /* background-color: #e0525d; */
+  /* color: #fff; */
+  text-decoration: underline wavy;
 }
 
 .btn-mobile-nav {
