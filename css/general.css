@@ -156,12 +156,12 @@ body::-webkit-scrollbar-thumb {
 
 .subheading {
   display: block;
-  color: #cf711f;
+  color: #e6e6e6;
   font-size: 1.6rem;
   text-transform: uppercase;
   font-weight: 500;
-  margin-bottom: 1.6rem;
-  letter-spacing: 0.75px;
+  margin-bottom: 1rem;
+  letter-spacing: 3px;
 }
 
 .link:link,
