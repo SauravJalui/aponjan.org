@@ -219,12 +219,13 @@ body::-webkit-scrollbar-thumb {
   color: #e34749;
   /* border: 3px solid #e67e22; */
   /* *Trick to add border inside button */
-  box-shadow: inset 0 0 0 2px #e34749;
+  box-shadow: inset 0 0 0 3px #e34749;
 }
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #fdf2e9;
+  background-color: #be212f;
+  color: #fff;
 }
 
 .btn--form {
