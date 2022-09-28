@@ -260,6 +260,32 @@
 }
 
 /* ////////////////////////////////////// */
+/* ? Gallery Section */
+/* ////////////////////////////////////// */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.6rem;
+  padding: 9.6rem;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  display: block;
+  width: 100%;
+  border-radius: 9px;
+  transition: all 0.4s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.1);
+}
+
+/* ////////////////////////////////////// */
 /* ? Footer Section */
 /* ////////////////////////////////////// */
 
