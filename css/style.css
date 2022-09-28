@@ -247,6 +247,11 @@
 
 .heading-secondary.days {
   margin-bottom: 1.5rem;
+  font-size: 4.4rem;
+}
+
+.heading-secondary.puja {
+  font-size: 5.2rem;
 }
 
 .pushphanjali {
@@ -381,7 +386,8 @@
 }
 /* gradient */
 
-h3:after {
+h3:after,
+h2:after {
   content: attr(data-shadow);
   text-shadow: none;
   background-image: linear-gradient(90deg, #ef6023 0%, #be212f 100%);
