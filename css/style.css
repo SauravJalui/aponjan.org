@@ -379,3 +379,28 @@
   align-items: center;
   gap: 1rem;
 }
+/* gradient */
+
+h3 {
+  display: inline-block;
+  color: #be212f;
+  text-shadow: 0.03em 0.03em 0 hsla(230, 40%, 50%, 1);
+}
+h3:after {
+  content: attr(data-shadow);
+  text-shadow: none;
+  background-image: linear-gradient(90deg, #ef6023 0%, #be212f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shad-anim 60s linear infinite;
+}
+
+@keyframes shad-anim {
+  0% {
+    background-position: 0 0;
+  }
+  0% {
+    background-position: 100% -100%;
+  }
+}
