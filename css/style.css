@@ -44,7 +44,7 @@
 .main-nav-link:visited {
   display: inline-block;
   text-decoration: none;
-  color: #e34749;
+  color: #e6e6e6;
   font-weight: 500;
   font-size: 1.8rem;
   transition: all 0.3s;
@@ -485,7 +485,7 @@
   }
 
   .main-nav {
-    background-color: rgba(255, 255, 255, 0.97);
+    background-color: rgb(190, 33, 47, 0.97);
     color: #e34749;
     position: absolute;
     top: 0;
