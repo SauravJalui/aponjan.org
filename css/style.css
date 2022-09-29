@@ -406,5 +406,6 @@ h2:after {
   text-shadow: none;
   background-image: linear-gradient(90deg, #ef6023 0%, #be212f 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
