@@ -596,7 +596,7 @@
   }
 
   .hero {
-    padding: 0 3.2rem;
+    padding: 3.2rem;
   }
 
   .koti-container {
@@ -608,14 +608,14 @@
   .btn:visited {
     padding: 2.4rem 1.6rem;
   }
+  .btn--outline:link,
+  .btn--outline:visited {
+    padding: 2.4rem 4.5rem;
+  }
 
   .hero-img {
     width: 100%;
   }
-
-  /* .logos img {
-    height: 1.2rem;
-  } */
 
   .step-img-box:nth-child(2) {
     grid-row: 1;
@@ -633,13 +633,10 @@
     transform: translateY(2.4rem);
   }
 
-  .testimonials {
-    grid-template-columns: 1fr;
-  }
-
   .gallery {
     grid-template-columns: repeat(3, 1fr);
-
     gap: 1.2rem;
+    padding: 4.8rem;
+    padding-bottom: 4.8rem;
   }
 }
