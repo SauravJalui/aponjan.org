@@ -51,7 +51,6 @@ Default: 9px
 }
 
 html {
-  /* font-size: 10px; */
   font-size: 62.5%;
   overflow-x: hidden;
   /* scroll-behavior: smooth; */
@@ -63,12 +62,6 @@ body {
   line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
-  /* background: radial-gradient(
-    85.94% 85.89% at 69.85% 14.11%,
-    #f06124 0%,
-    #d03728 36.48%,
-    #be212f 80.81%
-  ); */
   background-color: #be212f;
 }
 
@@ -130,7 +123,6 @@ body::-webkit-scrollbar-thumb {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-  /* todo: text gradient for color  */
   font-weight: 700;
   letter-spacing: -0.5px;
 }
@@ -170,6 +162,18 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 3.2rem;
 }
 
+/* text gradient */
+
+h3:after,
+h2:after {
+  content: attr(data-shadow);
+  text-shadow: none;
+  background-image: linear-gradient(90deg, #ef6023 0%, #be212f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .subheading {
   display: block;
   color: #e6e6e6;
@@ -178,22 +182,6 @@ body::-webkit-scrollbar-thumb {
   font-weight: 500;
   margin-bottom: 1rem;
   letter-spacing: 3px;
-}
-
-.link:link,
-.link:visited {
-  display: inline-block;
-  color: #e67e22;
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
-  padding-bottom: 2px;
-  transition: all 0.3s;
-}
-
-.link:hover,
-.link:active {
-  color: #cf711f;
-  border-bottom: 1px solid transparent;
 }
 
 .btn,
@@ -214,10 +202,6 @@ body::-webkit-scrollbar-thumb {
   font-family: inherit;
 }
 
-.btn:hover,
-.btn:active {
-}
-
 .btn--full:link,
 .btn--full:visited {
   background-color: #e34749;
@@ -233,8 +217,6 @@ body::-webkit-scrollbar-thumb {
 .btn--outline:visited {
   background-color: #fff;
   color: #e34749;
-  /* border: 3px solid #e67e22; */
-  /* *Trick to add border inside button */
   box-shadow: inset 0 0 0 3px #e34749;
 }
 
@@ -242,39 +224,6 @@ body::-webkit-scrollbar-thumb {
 .btn--outline:active {
   background-color: #be212f;
   color: #fff;
-}
-
-.btn--form {
-  background-color: #45260a;
-  color: #fdf2e9;
-  align-self: end;
-  padding: 1.2rem;
-}
-
-.btn--form:hover {
-  background-color: #fff;
-  color: #555;
-}
-
-.list {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 1.6rem;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.8rem;
-  line-height: 1.2;
-}
-
-.list-icon {
-  height: 3rem;
-  width: 3rem;
-  color: #e67e22;
 }
 
 ::selection {
@@ -290,12 +239,8 @@ body::-webkit-scrollbar-thumb {
 
 *:focus {
   outline: none;
-  /* this worked */
   outline: 4px dotted #e34749;
   outline-offset: 8px;
-
-  /* this didn't */
-  /* box-shadow: 0 0 0 0.8rem rgba(235, 125, 34, 0.5); */
 }
 
 /* Helper class */
