@@ -23,14 +23,13 @@
   box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
-.logo {
-  width: 20rem;
-}
-
 .logo.nav {
   width: 15rem;
 }
 .logo.footer {
+  width: 15rem;
+  padding-top: 0;
+  padding-bottom: 2rem;
 }
 /* ////////////////////////////////////// */
 /* ? Navigation Section */
@@ -316,7 +315,7 @@
 .footer {
   color: #333;
   background-color: #f9e9ea;
-  padding: 12.8rem 0;
+  padding: 9.6rem 0;
   padding-bottom: 2rem;
   /* border-top: 1px solid #eee; */
 }
@@ -381,6 +380,7 @@
 .logo-col {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .contacts {
@@ -395,6 +395,7 @@
 
 .grid--footer {
   grid-template-columns: 1fr 2fr 1fr 1fr;
+  margin-bottom: 4.8rem;
 }
 
 .phone,
