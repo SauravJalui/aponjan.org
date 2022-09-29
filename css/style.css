@@ -639,4 +639,18 @@
     padding: 4.8rem;
     padding-bottom: 4.8rem;
   }
+
+  .gallery-item img {
+    border-radius: 10px;
+  }
+
+  .about-aponjan {
+    background-color: #fff;
+    padding: 6.4rem;
+  }
+  .heading-secondary.about {
+    font-size: 5.2rem;
+    margin-bottom: 6.2rem;
+    text-align: center;
+  }
 }
