@@ -158,6 +158,12 @@ body::-webkit-scrollbar-thumb {
   margin-bottom: 8.6rem;
 }
 
+.heading-secondary.about {
+  font-size: 5.2rem;
+  margin-bottom: 6.2rem;
+  text-align: center;
+}
+
 .heading-tertiary {
   font-size: 3rem;
   line-height: 1.2;

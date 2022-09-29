@@ -273,12 +273,35 @@
 .gallery-item img {
   display: block;
   width: 100%;
-  border-radius: 9px;
+  border-radius: 50px;
   transition: all 0.4s;
 }
 
 .gallery-item img:hover {
   transform: scale(1.1);
+}
+
+/* ////////////////////////////////////// */
+/* ? Footer Section */
+/* ////////////////////////////////////// */
+
+.about-aponjan {
+  background-color: #fff;
+  padding: 9.6rem 25rem;
+}
+
+.step-description.about {
+  color: #5f1118;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.step-meta {
+  color: #5f1118;
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-top: 3rem;
 }
 
 /* ////////////////////////////////////// */
