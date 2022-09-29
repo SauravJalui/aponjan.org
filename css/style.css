@@ -555,10 +555,6 @@
     margin-bottom: 4.8rem;
   }
 
-  .pricing-plan {
-    width: 100%;
-  }
-
   .grid--footer {
     grid-template-columns: repeat(6, 1fr);
   }
@@ -569,9 +565,7 @@
   }
 
   .nav-col {
-    grid-row: 1;
     grid-column: span 2;
-    margin-bottom: 3.2rem;
   }
 }
 
@@ -648,9 +642,22 @@
     background-color: #fff;
     padding: 6.4rem;
   }
-  .heading-secondary.about {
-    font-size: 5.2rem;
-    margin-bottom: 6.2rem;
-    text-align: center;
+
+  .grid--footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid--footer:nth-child(2) {
+    grid-row: 4;
+  }
+  .nav-col {
+    grid-row: 3;
+    justify-content: center;
+    padding: 0 4.8rem;
+  }
+
+  .address-col {
+    grid-column: span 3;
+    padding: 0 4.8rem;
   }
 }
