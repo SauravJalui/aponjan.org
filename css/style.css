@@ -611,6 +611,9 @@
     width: 100%;
   }
 
+  .heading-secondary.puja {
+    font-size: 4.5rem;
+  }
   .step-number {
     font-size: 3.6rem;
   }
