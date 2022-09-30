@@ -274,6 +274,31 @@
   padding: 9.6rem 25rem;
 }
 
+.upi-container {
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.upi-icon {
+  width: 100%;
+  height: 100%;
+}
+
+.wa-link.upi-link {
+  font-size: 4.4rem;
+}
+
+.upi-icon.phonepe {
+  width: 50%;
+}
+
+.upi-icon.gpay {
+  width: 30%;
+}
+
 /* ////////////////////////////////////// */
 /* ? contact us Section */
 /* ////////////////////////////////////// */
