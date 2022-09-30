@@ -169,6 +169,14 @@
     font-size: 3.6rem;
   }
 
+  .upi-icon.phonepe {
+    width: 20%;
+  }
+
+  .upi-icon.gpay {
+    width: 10%;
+  }
+
   .about-aponjan {
     background-color: #fff;
     padding: 6.4rem;
@@ -315,6 +323,19 @@
 
   .gallery-item img {
     border-radius: 10px;
+  }
+
+  .upi-icon {
+    width: 100%;
+    height: 100%;
+  }
+
+  .upi-icon.phonepe {
+    width: 60%;
+  }
+
+  .upi-icon.gpay {
+    width: 30%;
   }
 
   .contact-us {

@@ -283,20 +283,20 @@
 }
 
 .upi-icon {
-  width: 100%;
+  width: 40%;
   height: 100%;
 }
 
-.wa-link.upi-link {
+/* .wa-link.upi-link {
   font-size: 4.4rem;
-}
+} */
 
 .upi-icon.phonepe {
-  width: 50%;
+  width: 30%;
 }
 
 .upi-icon.gpay {
-  width: 30%;
+  width: 20%;
 }
 
 /* ////////////////////////////////////// */
