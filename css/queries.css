@@ -19,6 +19,10 @@
   .gallery-item img {
     border-radius: 10px;
   }
+
+  .contact-container {
+    padding: 0 17rem;
+  }
 }
 
 /* ////////////////////////////////////// */
@@ -57,8 +61,8 @@
     gap: 4.8rem;
   }
 
-  .testimonial-container {
-    padding: 9.6rem 3.2rem;
+  .contact-us {
+    padding: 9.6rem 35rem;
   }
 }
 
@@ -162,8 +166,16 @@
     padding: 6.4rem;
   }
 
+  .contact-us {
+    padding: 9.6rem 25rem;
+  }
+
   .contact-container {
     padding: 0 20rem;
+  }
+
+  .logo.footer {
+    width: 35rem;
   }
 }
 
@@ -186,8 +198,8 @@
     margin-bottom: 4.8rem;
   }
 
-  .contact-container {
-    padding: 0 5rem;
+  .contact-us {
+    padding: 9.6rem 10rem;
   }
 
   .grid--footer {
