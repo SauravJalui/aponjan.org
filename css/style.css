@@ -266,6 +266,55 @@
 }
 
 /* ////////////////////////////////////// */
+/* ? Donate Section */
+/* ////////////////////////////////////// */
+
+.donate {
+  background-color: #f2d3d5;
+  padding: 9.6rem 25rem;
+}
+
+/* ////////////////////////////////////// */
+/* ? contact us Section */
+/* ////////////////////////////////////// */
+
+.contact-us {
+  background-color: #f2d3d5;
+  padding: 9.6rem 25rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 3rem;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.icon {
+  width: 4rem;
+}
+
+.step-description.contact {
+  margin-bottom: 0;
+  font-size: 2.4rem;
+}
+
+.wa-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.wa-link:hover {
+  color: #e34749;
+}
+
+/* ////////////////////////////////////// */
 /* ? Footer Section */
 /* ////////////////////////////////////// */
 
