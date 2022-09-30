@@ -232,8 +232,7 @@ h2:after {
   color: #e34749;
 }
 
-.section-hero *::selection,
-.section-testimonials *::selection {
+.section-hero *::selection {
   background: #fae5d3;
   color: #e34749;
 }
