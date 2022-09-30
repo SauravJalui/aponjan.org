@@ -161,6 +161,10 @@
     background-color: #fff;
     padding: 6.4rem;
   }
+
+  .contact-container {
+    padding: 0 20rem;
+  }
 }
 
 /* ////////////////////////////////////// */
@@ -180,6 +184,10 @@
 
   .heading-secondary {
     margin-bottom: 4.8rem;
+  }
+
+  .contact-container {
+    padding: 0 5rem;
   }
 
   .grid--footer {
@@ -210,7 +218,6 @@
 
   .address-col {
     grid-row: 2;
-    grid-column: span 3;
     padding: 0 4.8rem;
   }
 
@@ -288,5 +295,13 @@
 
   .gallery-item img {
     border-radius: 10px;
+  }
+
+  .contact-us {
+    padding: 9.6rem 4.8rem;
+  }
+
+  .contact-container {
+    padding: 0 15rem;
   }
 }
