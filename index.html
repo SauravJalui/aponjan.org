@@ -265,11 +265,21 @@
 
           <!-- ? Day 04 - Navami -->
           <div class="step-img-box">
-            <img
-              src="./assets/pictures/4-durgapuja.png"
-              alt="Durga Puja illustration"
-              class="step-img"
-            />
+            <picture>
+              <source
+                srcset="./assets/pictures/4-durgapuja.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="./assets/pictures/4-durgapuja-min.png"
+                type="image/png"
+              />
+              <img
+                src="./assets/pictures/4-durgapuja-min.png"
+                alt="Durga Puja illustration"
+                class="step-img"
+              />
+            </picture>
           </div>
           <div class="step-text-box">
             <p class="step-number">04<sup>th</sup> OCT</p>
