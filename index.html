@@ -100,11 +100,21 @@
             </div>
           </div>
           <div class="hero-img-box">
-            <img
-              src="./assets/pictures/durgapuja.png"
-              class="hero-img"
-              alt="maa durga illustration with children ganesh, lakshmi, saraswati and kartik"
-            />
+            <picture>
+              <source
+                srcset="./assets/pictures/durgapuja.webp"
+                type="image/webp"
+              />
+              <source
+                srcset="./assets/pictures/durgapuja-min.png"
+                type="image/png"
+              />
+              <img
+                src="./assets/pictures/durgapuja-min.png"
+                class="hero-img"
+                alt="maa durga illustration with children ganesh, lakshmi, saraswati and kartik"
+              />
+            </picture>
           </div>
         </div>
       </section>
