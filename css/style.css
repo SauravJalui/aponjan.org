@@ -216,7 +216,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.6rem;
   padding: 9.6rem;
-  padding-bottom: 4.8rem;
 }
 
 .gallery-item {
