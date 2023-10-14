@@ -141,7 +141,7 @@
   margin-right: -1.6rem;
 }
 
-.koti-container img:last-child {
+.koti-container upi:last-child {
   margin-right: 0;
 }
 
@@ -286,7 +286,11 @@
 .upi-icon {
   width: 40%;
   height: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.upi-code{
+  margin-bottom: 2rem;
 }
 
 /* .wa-link.upi-link {

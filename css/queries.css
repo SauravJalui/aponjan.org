@@ -333,6 +333,10 @@
     height: 100%;
   }
 
+  .upi-code{
+    margin-bottom: 2rem;
+  }
+
   .upi-icon.phonepe {
     width: 60%;
   }
