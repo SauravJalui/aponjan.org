@@ -6,7 +6,7 @@ We have established ourselves in [Mumbai](https://en.wikipedia.org/wiki/Mumbai) 
 
 [We](aponjan.org) are creating this opportunity for the Bengalis' to come closer and for other people interested in bengali culture to learn more about it. [Aponjan.org](aponjan.org) will provide us a virtual platform to stay in touch with "Bangla Kristi\*\*" throughout the world.
 
-[Aponjan](aponjan.org) is celebrating it’s 15th Durga Puja this year. Come join us in our celebrations.
+[Aponjan](aponjan.org) is celebrating it’s 16th Durga Puja this year. Come join us in our celebrations.
 
 English translation for Bengali words used:
 
