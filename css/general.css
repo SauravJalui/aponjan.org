@@ -258,3 +258,13 @@ h2:after {
 strong {
   font-weight: 500;
 }
+
+/* Fpnt color */
+
+.color_dark-red{
+  color: #5f1118;
+}
+
+.color_light-red{
+  color: #be212f;
+}

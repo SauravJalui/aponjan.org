@@ -187,7 +187,7 @@
   color: #72141c;
   font-size: 1.8rem;
   line-height: 1.8;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .subheading.meta {
@@ -198,7 +198,8 @@
   margin-bottom: 2rem;
 }
 
-.pushphanjali {
+.functions {
+  margin-left: 2rem;
   color: #be212f;
   font-size: 1.4rem;
   line-height: 1.8;
@@ -285,6 +286,7 @@
 .upi-icon {
   width: 40%;
   height: 100%;
+  margin-bottom: 1rem;
 }
 
 /* .wa-link.upi-link {
