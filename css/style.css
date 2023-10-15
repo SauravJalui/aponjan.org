@@ -81,7 +81,7 @@
   color: #e5a6ac;
 }
 
-.icon-mobile-nav[name='close-outline'] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
@@ -127,7 +127,7 @@
   display: flex;
   margin-top: 4rem;
   align-items: center;
-  gap: 0.5em;
+  gap: 2.5em;
 }
 
 .koti-images {
@@ -289,7 +289,7 @@
   margin-bottom: 0.5rem;
 }
 
-.upi-code{
+.upi-code {
   margin-bottom: 2rem;
 }
 
