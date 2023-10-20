@@ -58,7 +58,7 @@ html {
 
 body {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
@@ -251,6 +251,10 @@ h2:after {
   margin-bottom: 4.8rem !important;
 }
 
+.margin-top-sm {
+  margin-top: 2rem;
+}
+
 .center-text {
   text-align: center;
 }
@@ -261,10 +265,10 @@ strong {
 
 /* Fpnt color */
 
-.color_dark-red{
+.color_dark-red {
   color: #5f1118;
 }
 
-.color_light-red{
+.color_light-red {
   color: #be212f;
 }

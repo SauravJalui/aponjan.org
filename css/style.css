@@ -183,6 +183,10 @@
   font-weight: 600;
 }
 
+.members {
+  margin-bottom: 1.4rem;
+}
+
 .step-description {
   color: #72141c;
   font-size: 1.8rem;
