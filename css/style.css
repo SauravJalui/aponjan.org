@@ -185,7 +185,8 @@
   font-weight: 600;
 }
 
-.members {
+.step-number.members {
+  line-height: 1.25;
   margin-bottom: 1.4rem;
 }
 
