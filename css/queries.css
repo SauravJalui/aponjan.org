@@ -200,6 +200,7 @@
 /* ////////////////////////////////////// */
 /* 704/16 = 44 */
 @media (max-width: 44em) {
+
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
@@ -243,6 +244,7 @@
     grid-row: 3;
     padding-left: 4.8rem;
   }
+
   .nav-col.right {
     grid-column: 3;
     padding-right: 4.8rem;
@@ -267,6 +269,10 @@
     row-gap: 4.8rem;
   }
 
+  .grid.members {
+    row-gap: 2rem;
+  }
+
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
@@ -287,6 +293,7 @@
   .btn:visited {
     padding: 2.4rem 1.6rem;
   }
+
   .btn--outline:link,
   .btn--outline:visited {
     padding: 2.4rem 4.5rem;
@@ -299,9 +306,11 @@
   .heading-secondary.puja {
     font-size: 4.5rem;
   }
+
   .step-number {
     font-size: 3.6rem;
   }
+
   .step-img-box:nth-child(2) {
     grid-row: 1;
   }
@@ -333,7 +342,7 @@
     height: 100%;
   }
 
-  .upi-code{
+  .upi-code {
     margin-bottom: 2rem;
   }
 
